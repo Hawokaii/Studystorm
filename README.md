@@ -65,3 +65,6 @@ Number statistics of the given courses. Helps to track and sort by ratings and e
 * subject VARCHAR2(100) NOT NULL
 * course_title VARCHAR2(100)
 * url VARCHAR2(300)
+
+
+![Alt](/User diagram.PNG "Title")
