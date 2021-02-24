@@ -67,4 +67,4 @@ Number statistics of the given courses. Helps to track and sort by ratings and e
 * url VARCHAR2(300)
 
 
-![Alt](/User diagram.PNG "Title")
+![Alt](/User diagram.png "Title")
