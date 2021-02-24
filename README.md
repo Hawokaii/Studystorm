@@ -35,7 +35,33 @@ Aim: The main goal of the project is to track changes in the relevance and relev
 
 ![Alt](/Study-Storm.jpg "Title")
 
-### Title
+### Course_Description
+Overall description of the courses
 
-* Bullet
-* Bullet
+* course_id int NOT NULL PRIMARY_KEY
+* subject VARCHAR2(100) NOT NULL FOREIGN KEY 
+* content_duration float(50) NOT NULL
+* published_timestamp VARCHAR2(100) NOT NULL
+* level VARCHAR2(50) NOT NULL
+
+### Course_Num_Stats
+Number statistics of the given courses. Helps to track and sort by ratings and etc.
+
+* course_id int NOT NULL PRIMARY_KEY
+* num_subcribers int NOT NULL
+* num_reviews int NOT NULL
+* num_lectures int NOT NULL
+
+### Course_Price
+
+* course_id int NOT NULL PRIMARY_KEY
+* is_paid boolean NOT NULL
+* price float NOT NULL
+
+
+### Course_URL
+
+* course_id int NOT NULL PRIMARY_KEY
+* subject VARCHAR2(100) NOT NULL
+* course_title VARCHAR2(100)
+* url VARCHAR2(300)
