@@ -12,7 +12,7 @@ The sites where such training materials mostly exist were not ready for such a h
 Aim: The main goal of the project is to track changes in the relevance and relevance of the consumed educational content. Showcase the changes in commercial training courses.
 
 
-##General questions
+## General questions
 
  1. How can a user differentiate a good course from a bad one? 
  2. How the user will be able to assess the relevance of the course?
@@ -31,9 +31,9 @@ Aim: The main goal of the project is to track changes in the relevance and relev
  15. How can a user find a specific course?
 
 
-##Data Tables' Description
+## Data Tables' Description
 
-###Title
+### Title
 
-*Bullet
-*Bullet
+* Bullet
+* Bullet
