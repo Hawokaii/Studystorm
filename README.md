@@ -33,6 +33,8 @@ Aim: The main goal of the project is to track changes in the relevance and relev
 
 ## Data Tables' Description
 
+![Alt](/Study-Storm.jpg "Title")
+
 ### Title
 
 * Bullet
