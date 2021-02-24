@@ -10,3 +10,30 @@ The sites where such training materials mostly exist were not ready for such a h
 
 ### Aim and objectives of research
 Aim: The main goal of the project is to track changes in the relevance and relevance of the consumed educational content. Showcase the changes in commercial training courses.
+
+
+##General questions
+
+ 1. How can a user differentiate a good course from a bad one? 
+ 2. How the user will be able to assess the relevance of the course?
+ 3. What is the essence of the project?
+ 4. What is the target audience of the project?
+ 5. How will the user assess the complexity of the course?
+ 6. How can the user estimate the duration of the course?
+ 7. What course options are offered in the project?
+ 8. What information can a user get about a specific course?
+ 9. How are courses filtered?
+ 10. How can a user track only paid / free courses?
+ 11. What problem does the project solve?
+ 12. What does the project offer to its users?
+ 13. How is the project supplemented with courses?
+ 14. Are there any analogues of the project in Kazakhstan?
+ 15. How can a user find a specific course?
+
+
+##Data Tables' Description
+
+###Title
+
+*Bullet
+*Bullet
