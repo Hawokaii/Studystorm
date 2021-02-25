@@ -67,4 +67,4 @@ Number statistics of the given courses. Helps to track and sort by ratings and e
 * url VARCHAR2(300)
 
 
-![Alt](/Userdiagram.png "Titlee")
+![Alt](/StudyStorm-UseCase-UML.png "Titlee")
