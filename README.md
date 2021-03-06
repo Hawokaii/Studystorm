@@ -71,8 +71,25 @@ Number statistics of the given courses. Helps to track and sort by ratings and e
 
 
 ## 4.Phase
-# ER Diagram
+### ER Diagram
 For reliable and correct relationships between tables, we rendered the ER data models using the draw.io service. The ER diagram can be found in the Studystorm-ER.png file
 
-![Alt](/StudyStorm-UseCase-UML.png "Titlee")
+![Alt](/Studystorm-ER.png "Titlee")
 
+### DDL
+
+####You can familiarize yourself with the creation of current tables and relationships in the Studystorm-DDL-queries.sql file.
+
+[DDL (Studystorm-DDL-queries)]: https://github.com/Hawokaii/Studystorm/blob/main/Studystorm-DDL-queries.sql
+
+We use primarily a JSON format because data collected from the database exists only during a session, but we remember that hypertext does not need to be HTML (or XML or JSON) on a browser.
+In order to build our resource we use a stack of technologies such as Node.js, Express, and OracleDB. OracleDB is required in order to maintain connection to the Oracle Database through server, which is accessible with assistance of Instant Client extension, using Oracle account as a system database administrator. It is performed for security thoughts upon stored data. Inside its configures we created a function that returns a table, or Error, and as a parameter it takes SQL query, options (how our object will look like on callback), and returning function. We also made our connection expirable, so it will shut down after a short transaction. 
+
+
+### DML
+
+[DDL (Studystorm-DML-queries)]: https://github.com/Hawokaii/Studystorm/blob/main/Studystorm-DML-data-load.sql
+
+Express + BodyParser are served inside the backend application in order to use required OracleDB lib, invoke functions, and process queries with following security measurements.
+
+![изображение](https://user-images.githubusercontent.com/49223543/110213643-0dce0b00-7ecb-11eb-93f7-31e1e45debdb.png)
