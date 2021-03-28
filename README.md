@@ -89,7 +89,7 @@ In order to build our resource we use a stack of technologies such as Node.js, E
 
 ### DML
 
-Using data taken as a csv file, we implemented DML-scripts to easly integrate data.
+Using data taken as a csv and .xlsx file, we implemented DML-scripts to easly integrate data.
 [DDL (Studystorm-DML-queries)](https://github.com/Hawokaii/Studystorm/blob/main/Studystorm-DML-data-load.sql)
 
 
