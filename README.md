@@ -101,16 +101,30 @@ Express + BodyParser are served inside the backend application in order to use r
 ### The connection
 
 After that data is imported to SQL Developer, and “node oracle.js” is launched.
-We enter there via command prompt. Then in the Command prompt appears notifications about fetching the data, other manipulations. And any Oracle errors will appear in the Command prompt.
+Then in the Command prompt appears notifications about fetching the data, other manipulations. And any Oracle errors will appear in the Command prompt.
 
 ![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/step1.PNG)
+Here you can see the site.
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/step2.PNG)
 
 We use primarily a JSON format because data collected from the database exists only during a session, but we remember that hypertext does not need to be HTML (or XML or JSON) on a browser.
 In order to build our resource we use a stack of technologies such as Node.js, Express, and OracleDB. OracleDB is required in order to maintain connection to the Oracle Database through server, which is accessible with assistance of Instant Client extension, using Oracle account as a system database administrator. It is performed for security thoughts upon stored data. Inside its configures we created a function that returns a table, or Error, and as a parameter it takes SQL query, options (how our object will look like on callback), and returning function. We also made our connection expirable, so it will shut down after a short transaction.
+
+
+Here is the fetched data and notification.
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/step4.PNG)
+
 
 
 
 ### User interface
 User interface is created as an admin panel.
 
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/users.PNG)
+
 You can see the students information, whether they're enrolled or not, courses list and also manipulate with records. For example add new student, delete, enroll, unenroll. 
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/filter2.PNG)
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/sort.PNG)
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/unenroll.PNG)
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/add.PNG)
+
