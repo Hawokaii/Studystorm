@@ -98,3 +98,6 @@ Express + BodyParser are served inside the backend application in order to use r
 ![изображение](https://user-images.githubusercontent.com/49223543/110213643-0dce0b00-7ecb-11eb-93f7-31e1e45debdb.png)
 
 ## User-interface implementation and connection 
+User interface is created as an admin panel.
+
+You can see the students information, whether they're enrolled or not, courses list and also manipulate with records. For example add new student, delete, enroll, unenroll. 
