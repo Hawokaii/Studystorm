@@ -73,8 +73,9 @@ Number statistics of the given courses. Helps to track and sort by ratings and e
 ## 4.Phase
 ### ER Diagram
 For reliable and correct relationships between tables, we rendered the ER data models using the draw.io service. The ER diagram can be found in the Studystorm-ER.png file
+<!--![Alt](/Studystorm-ER.png "Titlee") -->
+![Alt](/Study-Storm.jpg "Title")
 
-![Alt](/Studystorm-ER.png "Titlee")
 
 ### DDL
 
@@ -89,9 +90,9 @@ In order to build our resource we use a stack of technologies such as Node.js, E
 ### DML
 
 Using data taken as a csv file, we implemented DML-scripts to easly integrate data.
-![Alt](/Study-Storm.jpg "Title")
+[DDL (Studystorm-DML-queries)](https://github.com/Hawokaii/Studystorm/blob/main/Studystorm-DML-data-load.sql)
 
-<!--[DDL (Studystorm-DML-queries)](https://github.com/Hawokaii/Studystorm/blob/main/Studystorm-DML-data-load.sql) -->
+
 Express + BodyParser are served inside the backend application in order to use required OracleDB lib, invoke functions, and process queries with following security measurements.
 
 ![изображение](https://user-images.githubusercontent.com/49223543/110213643-0dce0b00-7ecb-11eb-93f7-31e1e45debdb.png)
