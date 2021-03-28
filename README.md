@@ -176,8 +176,6 @@ app.delete(`/users/:id`, (req, res) => {
 ```
 
 ### Visualizing
-React is used here for rendering HTML. Why don’t we use another framework? That’s because the inner states of React components consist of bonds between HTML and JavaScript. After munching some given conditions, React shows the HTML-element by the point of our logic, making the whole DOM tree dynamic.
-Because we use dynamic data, React Hooks was one of the best alternatives in order to use local state management. For example, when we generate another table, it should take Component’s state in order to be invoked.
 
 As you can see the diagram was made by calculation of the number of records in a month and took the average of records in this month and equate it to the day of the peak set of activity. This way it shows deleting/adding/updating statistics
 
