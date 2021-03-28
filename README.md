@@ -33,7 +33,7 @@ Aim: The main goal of the project is to track changes in the relevance and relev
 
 ## Data Tables' Description
 
-![Alt](/Study-Storm.jpg "Title")
+
 
 ### Course_Description
 Overall description of the courses
@@ -89,9 +89,11 @@ In order to build our resource we use a stack of technologies such as Node.js, E
 ### DML
 
 Using data taken as a csv file, we implemented DML-scripts to easly integrate data.
+![Alt](/Study-Storm.jpg "Title")
 
-[DDL (Studystorm-DML-queries)](https://github.com/Hawokaii/Studystorm/blob/main/Studystorm-DML-data-load.sql)
-
+<!--[DDL (Studystorm-DML-queries)](https://github.com/Hawokaii/Studystorm/blob/main/Studystorm-DML-data-load.sql) -->
 Express + BodyParser are served inside the backend application in order to use required OracleDB lib, invoke functions, and process queries with following security measurements.
 
 ![изображение](https://user-images.githubusercontent.com/49223543/110213643-0dce0b00-7ecb-11eb-93f7-31e1e45debdb.png)
+
+## User-interface implementation and connection 
