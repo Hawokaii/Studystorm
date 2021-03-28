@@ -153,4 +153,25 @@ app.get("/users", (req, res) => {
   );
 });
 ```
+Deleting student
+
+```javascript
+app.delete(`/users/:id`, (req, res) => {
+  var objs = req.url.split("/")[2].replace(/_/g, ",");
+  console.log(objs);
+  dbconfig(
+    `DELETE FROM students
+		WHERE student_id in (${objs})`,
+    [],
+    (err, results) => {
+      if (!err) {
+        console.log("Deleted a lot");
+        res.send(results);
+      } else {
+        console.log(err.error);
+      }
+    }
+  );
+});
+```
 
