@@ -103,7 +103,7 @@ Express + BodyParser are served inside the backend application in order to use r
 After that data is imported to SQL Developer, and “node oracle.js” is launched.
 We enter there via command prompt. Then in the Command prompt appears notifications about fetching the data, other manipulations. And any Oracle errors will appear in the Command prompt.
 
-![Alt](/step1.png "Titlee")
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/step1.PNG)
 
 We use primarily a JSON format because data collected from the database exists only during a session, but we remember that hypertext does not need to be HTML (or XML or JSON) on a browser.
 In order to build our resource we use a stack of technologies such as Node.js, Express, and OracleDB. OracleDB is required in order to maintain connection to the Oracle Database through server, which is accessible with assistance of Instant Client extension, using Oracle account as a system database administrator. It is performed for security thoughts upon stored data. Inside its configures we created a function that returns a table, or Error, and as a parameter it takes SQL query, options (how our object will look like on callback), and returning function. We also made our connection expirable, so it will shut down after a short transaction.
