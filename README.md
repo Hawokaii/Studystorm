@@ -73,6 +73,8 @@ Number statistics of the given courses. Helps to track and sort by ratings and e
 ## Data modeling and database design.
 ### ER Diagram
 For reliable and correct relationships between tables, we rendered the ER data models using the draw.io service. The ER diagram can be found in the Studystorm-ER.png file
+
+
 ![Alt](/Studystorm-ER.png "Titlee")
 <!--![Alt](/Study-Storm.jpg "Title")-->
 
