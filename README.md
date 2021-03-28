@@ -123,9 +123,9 @@ User interface is created as an admin panel.
 ![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/users.PNG)
 
 You can see the students information, whether they're enrolled or not, courses list and also manipulate with records. For example add new student, delete, enroll, unenroll. 
-![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/filter2.PNG)
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/filtering.PNG)
 ![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/sort.PNG)
-![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/unenroll.PNG)
+![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/un-enroll.PNG)
 ![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/add.PNG)
 
 
