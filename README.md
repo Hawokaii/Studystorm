@@ -128,4 +128,29 @@ You can see the students information, whether they're enrolled or not, courses l
 ![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/un-enroll.PNG)
 ![Alt text](https://github.com/Hawokaii/Studystorm/blob/main/UI-screenshots/add.PNG)
 
+Part of the code implementation, which causes triggers or represents the students
+
+```javascript
+app.get("/users", (req, res) => {
+  dbconfig(
+    `SELECT student_id as "id",
+		student_key as "key",
+		name as "name", date_added as "date",
+		gpa as "gpa", category_id as "category",
+		enrollments as "enrollments"
+		 FROM students
+		 ORDER BY 
+		 student_id ASC`,
+    [],
+    function (err, results) {
+      if (!err) {
+        console.log("fecthed");
+        res.send(results.rows);
+      } else {
+        console.log(err.error);
+      }
+    }
+  );
+});
+```
 
