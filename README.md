@@ -186,4 +186,5 @@ As you can see the diagram was made by calculation of the number of records in a
 
 
 
-
+# RA Queries
+https://github.com/Hawokaii/Studystorm/tree/main/RA%20queries
