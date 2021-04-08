@@ -1,0 +1,34 @@
+--original
+select teacher_id,ders_kod,hour_num,credits,term from course_schedule,course_sections,teachers,course_selection where course_schedule.ders_kod = course.sections.ders_kod, course_sections.year = course_schedule.year 
+and teachr_id is not null;
+
+//--join
+
+//1
+select count(*) from course_schedule join (course_schedule join course_sections on course_schedule.year = course_sections.year) 
+on course_sections.teacher_id = teachers.teacher_id where course_schedule.year>=2015 ;
+
+//2
+select count(*) from course_sections join (teachers join course_sections on  course_sections.emp_id= teachers.teacher_id)
+on course_sections.year=course_schedule.year where course_schedule.ders_kod like %MAT%;
+
+//3
+select count(*) from course_schedule join (course_section join teachers on course_sections.teacher_id = teachers.teacher_id )
+on course_selections.term = course_schedule.term;
+
+
+//--sub-query
+
+//1
+select count(*) from course_schedule,course_sections,teachers;
+(course_schedule x course_section)x teachers-- 10
+
+//2
+select count(*) from course_sections,teachers,course_schedule where course_schedule.ders_kod like %MAT%;
+(teachers x course_sections) x course_schedule -- 7
+
+//3
+select count(*) from course_schedule ,course_selection,teachers;
+(course_section x teachers) x course_selections -- 15
+
+
