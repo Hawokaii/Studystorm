@@ -1,0 +1,38 @@
+//--original
+
+select to_gpa(qiymet_yuz) as score, find_credits_of_subject (ders_kod) as credits from 
+course_selections,students, teachers where stud_id = p_stud_id and qiymet_yuz is not null;
+
+//--join
+
+//1
+select count(*) from students join (course_sections join teachers on course_sections.emp_id = teachers.teacher_id)
+on course_selections.stud_id = students.student_id and course_selections.qiymet_yuz = "MAT203";
+
+//2
+select count(*) from course_selections join (course_schedule join course_sections on course_schedule.year = course_sections.year)
+on course_schedule.ders_kod = course_sections.ders_kod and course_schedule.ders_kod like '%13%';
+
+//3
+select count(*) from course_schedule join (course_selection join course_schedule on course_selection.term = course_schedule.term)
+on course_selections.year = course_schedule.year and course_selection.year = "2020";
+
+--
+//--sub-query
+
+//1
+select count(*) from students,course_selections,teachers; 
+(students ? course_selections)?teachers -- 13
+
+//2
+select count(*) from course_selections,course_section, students where course_selections.ders_kod = "237";
+(course_selections ? course_section)?students -- 25
+
+//3
+select count(*) from course_schedule,course_selections,students where students.gpa=2.7 
+(course_schedule ? course_selections)?students --57
+
+
+
+
+
